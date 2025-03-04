@@ -4,7 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate
 from langchain_core.prompts import ChatPromptTemplate
 
-# Connect to Ollama (Ensure Ollama is running on a cloud server instead of localhost)
+
 model = ChatOllama(model='llama3.2', base_url='http://localhost:11434')
 
 # System Message
